@@ -37,7 +37,7 @@ public class TorpedoStore {
     boolean success = false;
 
     // simulate random overheating of the launcher bay which prevents firing
-
+    // ujkomment review utan
     double r = this.generator.nextDouble();
 
     if (r >= FAILURE_RATE) {
